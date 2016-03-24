@@ -11,4 +11,5 @@
     <string name="liable">Відповідальний</string>
     <string name="liable_name">Дніпропетровський МВК()</string>
     <string name="describe_event">Відкритий люк (біля рекламного щита),район повороту 18 та 19 трамваїв на проспекті Мира з Донецького шоссе</string>
+    <string name="recycle_view_name">RecycleView</string>
 </resources>
