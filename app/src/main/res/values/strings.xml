@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyProject</string>
+    <string name="toolbar_name">CE-1257218</string>
+    <string name="event_name">Municipal economy</string>
+    <string name="in_work">In work</string>
+    <string name="create_event">Create</string>
+    <string name="date_create_event">25 february 2016</string>
+    <string name="regist_event">Registered</string>
+    <string name="date_regist_event">26 february 2016</string>
+    <string name="resolve_to">Decide to</string>
+    <string name="resolve_to_date">29 february 2016</string>
+    <string name="liable">Responsible</string>
+    <string name="liable_name">Dnipropetrovsk MVK()</string>
+    <string name="describe_event">Open the hatchway (near the billboard), district of turn 18 and 19 trams at prospect Mira from Donetsk highway</string>
+    <string name="recycler_view_name">RecycleView</string>
+</resources>
