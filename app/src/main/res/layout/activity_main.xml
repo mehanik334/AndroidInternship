@@ -197,8 +197,8 @@
                 >
 
             </android.support.v7.widget.RecyclerView>
-
-        </LinearLayout>
+        <!-- [Comment] A LOT of hardcode-->
+        </LinearLayout>q
 
     </ScrollView>
 

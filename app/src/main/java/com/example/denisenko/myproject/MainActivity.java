@@ -8,12 +8,12 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Toast;
 
-
-public class MainActivity extends ActionBarActivity implements View.OnClickListener {
+//[Comment] Bad design, colors paddings. Remake
+public class MainActivity extends ActionBarActivity implements View.OnClickListener { //[Comment] Deprecated class
 
     private RecyclerView mRecyclerView;
     private RecyclerView.Adapter mAdapter;
-    private RecyclerView.LayoutManager mLayoutManager;
+    private RecyclerView.LayoutManager mLayoutManager; //[Comment] All objects should be local
 
     @Override
 
@@ -54,7 +54,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.event_name_view:
-                Toast.makeText(this, R.string.event_name, Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, R.string.event_name, Toast.LENGTH_SHORT).show(); //[Comment] Toast shows wrong info.
                 break;
             case R.id.in_work_view:
                 Toast.makeText(this, R.string.in_work, Toast.LENGTH_SHORT).show();

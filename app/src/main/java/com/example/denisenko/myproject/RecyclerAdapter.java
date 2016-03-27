@@ -13,7 +13,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
     private int[] mDataset;
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
-        public ImageView mImageView;
+        public ImageView mImageView; //[Comment] Wrong visibility modifier
 
         public ViewHolder(View v) {
             super(v);
