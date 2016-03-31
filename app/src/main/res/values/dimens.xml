@@ -5,4 +5,9 @@
     <dimen name="toolbar_height">50dp</dimen>
     <dimen name="part_event_height">35dp</dimen>
     <dimen name="text_size">15sp</dimen>
+    <dimen name="layout_margin_main">15dp</dimen>
+    <dimen name="height_divide">1dp</dimen>
+    <dimen name="padding_in_work">5dp</dimen>
+    <dimen name="paddingTop_event">6dp</dimen>
+    <dimen name="margin_top_bottom_event">5dp</dimen>
 </resources>

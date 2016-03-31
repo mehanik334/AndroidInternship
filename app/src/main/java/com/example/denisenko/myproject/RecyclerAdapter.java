@@ -13,7 +13,8 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
     private int[] mDataset;
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
-        public ImageView mImageView;
+
+        private ImageView mImageView;
 
         public ViewHolder(View v) {
             super(v);
